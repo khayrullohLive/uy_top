@@ -36,7 +36,7 @@ kotlin {
         }
         commonMain.dependencies {
 //            implementation(project(":auth"))
-//            implementation(project(":data"))
+            implementation(project(":data"))
             implementation(compose.runtime)
             implementation(compose.foundation)
             implementation(compose.material3)

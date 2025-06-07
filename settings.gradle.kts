@@ -29,6 +29,4 @@ dependencyResolutionManagement {
 }
 
 include(":composeApp")
-//include(":auth")
-//include(":data")
-//include(":common")
+include(":data")

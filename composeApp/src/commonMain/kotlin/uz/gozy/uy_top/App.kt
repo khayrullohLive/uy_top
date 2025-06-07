@@ -12,6 +12,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import org.gozy.data.PlatformData
 //import org.gozy.data.ServiceAPI
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
@@ -23,7 +24,7 @@ import uy_top.composeapp.generated.resources.compose_multiplatform
 @Preview
 fun App() {
     MaterialTheme {
-//        val service = ServiceAPI()
+        val service = PlatformData()
         var showContent by remember { mutableStateOf(false) }
         Column(
             modifier = Modifier
